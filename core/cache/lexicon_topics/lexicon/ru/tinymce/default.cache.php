@@ -1,0 +1,15 @@
+<?php  return array (
+  'tinymce_editor_theme_title' => 'Theme:',
+  'tinymce_editor_theme_message' => 'Here you can select which theme or skin to use with the editor.',
+  'tinymce_editor_custom_plugins_title' => 'Custom Plugins:',
+  'tinymce_editor_custom_plugins_message' => 'Enter the plugins to use for the \'custom\' theme as a comma separated list.',
+  'tinymce_editor_custom_buttons_title' => 'Custom Buttons:',
+  'tinymce_editor_custom_buttons_message' => 'Enter the buttons to use for the \'custom\' theme as a comma separated list for each row. Be sure that each button has the required plugin enabled in the \'Custom Plugins\' setting.',
+  'tinymce_editor_css_selectors_title' => 'CSS selectors:',
+  'tinymce_editor_css_selectors_message' => 'Here you can enter a list of selectors that should be available in the editor. Enter them as follows:<br />\'displayName=selectorName;displayName2=selectorName2\'<br />For instance, say you have <b>.mono</b> and <b>.smallText</b> selectors in your CSS file, you could add them here as:<br />\'Monospaced text=mono;Small text=smallText\'<br />Note that the last entry should not have a semi-colon after it.',
+  'tinymce_settings' => 'TinyMCE Settings',
+  'tinymce_theme_simple' => 'Simple',
+  'tinymce_theme_advanced' => 'Advanced',
+  'tinymce_theme_editor' => 'Content Editor',
+  'tinymce_theme_custom' => 'Custom',
+);
