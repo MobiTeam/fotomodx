@@ -35,8 +35,8 @@
     ),
     'OnHandleRequest' => 
     array (
-      10 => '10',
       2 => '2',
+      10 => '10',
     ),
     'OnLoadWebDocument' => 
     array (
@@ -98,8 +98,8 @@
     ),
     'OnTVOutputRenderPropertiesList' => 
     array (
-      9 => '9',
       4 => '4',
+      9 => '9',
     ),
     'OnWebPageComplete' => 
     array (

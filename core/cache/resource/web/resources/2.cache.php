@@ -2,35 +2,36 @@
   'resourceClass' => 'modDocument',
   'resource' => 
   array (
-    'id' => 1,
+    'id' => 2,
     'type' => 'document',
     'contentType' => 'text/html',
-    'pagetitle' => 'Главная',
-    'longtitle' => 'Печать фото в ханты-мансийске',
-    'description' => '',
-    'alias' => 'index',
+    'pagetitle' => 'Информация',
+    'longtitle' => 'Оплата и доставка Мир Фото',
+    'description' => 'Страница вопросы и ответы',
+    'alias' => 'informacziya',
     'link_attributes' => '',
     'published' => 1,
     'pub_date' => 0,
     'unpub_date' => 0,
     'parent' => 0,
-    'isfolder' => 1,
+    'isfolder' => 0,
     'introtext' => '',
-    'content' => '',
+    'content' => '<p> </p>
+<p> </p>',
     'richtext' => 1,
-    'template' => 2,
-    'menuindex' => 0,
+    'template' => 3,
+    'menuindex' => 1,
     'searchable' => 1,
     'cacheable' => 1,
     'createdby' => 1,
-    'createdon' => 1456506515,
+    'createdon' => 1456662449,
     'editedby' => 1,
-    'editedon' => 1456815561,
+    'editedon' => 1456725231,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
-    'publishedon' => 0,
-    'publishedby' => 0,
+    'publishedon' => 1456663020,
+    'publishedby' => 1,
     'menutitle' => '',
     'donthit' => 0,
     'privateweb' => 0,
@@ -40,21 +41,13 @@
     'class_key' => 'modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => 'index/',
+    'uri' => 'informacziya.html',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
     'properties' => NULL,
-    'image_slider' => 
-    array (
-      0 => 'image_slider',
-      1 => '',
-      2 => 'image',
-      3 => NULL,
-      4 => 'image',
-    ),
     '_content' => '<!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     	<!-- Подключаем CSS файлы -->
 <meta charset="UTF-8">
@@ -78,6 +71,7 @@
 <link href="assets/css/shop_cart.css" rel="stylesheet">
 
 
+		
 </head>
 <body>
 	    <!-- Подключаем область до headera-->   
@@ -137,143 +131,148 @@
 		</div>
 
 
-      		<div class="container" style="max-width: 1024px; margin-top: 28px;">
-			<div class="row">
-			<div id="carousel-shop" class="carousel slide" data-ride="carousel" data-interval="3000">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-shop" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-shop" data-slide-to="1" ></li>
-			    <li data-target="#carousel-shop" data-slide-to="2"></li>
-			  </ol>
-
-			  <!-- Wrapper for slides -->
-			<div class="carousel-inner">
-                    <div class="item active">
-        <img src="assets/images/slider/img1.jpg" alt="img">
-	    <div class="carousel-caption">
-	    </div>
-	</div>
-<div class="item">
-        <img src="assets/images/slider/img2.jpg" alt="img">
-	    <div class="carousel-caption">
-	        
-	    </div>
-	</div>
-<div class="item">
-        <img src="assets/images/slider/img3.jpg" alt="img">
-	    <div class="carousel-caption">
-	        
-	    </div>
-	</div>
-                
-		      </div>
-		    </div>
-		  </div>
-		</div>
         		<div class="header_arrows">
 			
 		</div>
 		
 	</div>
-        
-          
     
-		<!-- Подключаем контент -->    
-<div class="content">
-        <div class="container" style="max-width: 1024px;">
-<span class="title_catalogue">Наша продукция</span>
-                <div class="row catalogs">
-                <div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/phone_print.jpg" alt="Печать на чехлах" />  
-   <span class="usl_name_thumb"><h4>Печать на чехлах</h4></span>
-   <div class="mask">
-     <p>Печать на чехлах, любого текста и изображения. Создай в нашем конструкторе чехол своей мечты.</p>  
-     <a href="uslugi/pechat-na-chexlax/" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/pills-examples.jpg" alt="Печать на подушках" />  
-   <span class="usl_name_thumb"><h4>Печать на подушках</h4></span>
-   <div class="mask">
-     <p>Отличным подарком для ваших друзей и близких станет подушка с фотографией. Наша компания выполняет качественную печать фото на подушке в короткие сроки. </p>  
-     <a href="uslugi/pechat-na-podushkax.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/cups_examples.jpg" alt="Сувениры с вашими фото" />  
-   <span class="usl_name_thumb"><h4>Сувениры с вашими фото</h4></span>
-   <div class="mask">
-     <p>Мы предлагаем кружки, подушки, сумки, зеркала, камни, коврики, тарелки, календари, магнитики и многое другое, украшенные выбранными Вами изображениями.</p>  
-     <a href="uslugi/suveniryi-s-vashimi-foto.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/print_foto_examples.jpg" alt="Печать фотографий" />  
-   <span class="usl_name_thumb"><h4>Печать фотографий</h4></span>
-   <div class="mask">
-     <p>Печать фотографий всех размеров:<br>
-10х15 - 12 руб.<br>
-15×21 - 25 руб.<br>
-20х30 - 50 руб.</p>  
-     <a href="uslugi/pechat-fotografij.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/foto-examples.jpg" alt="Фото-товары" />  
-   <span class="usl_name_thumb"><h4>Фото-товары</h4></span>
-   <div class="mask">
-     <p>Мы предлагаем различные фото-рамки и прочие товары к вашим фото</p>  
-     <a href="uslugi/foto-tovaryi.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/digital.jpg" alt="Прочие услуги" />  
-   <span class="usl_name_thumb"><h4>Прочие услуги</h4></span>
-   <div class="mask">
-     <p>Мы оказываем услуги оцифровки видео кассет от 200 рублей / час.</p>  
-     <a href="uslugi/prochie-uslugi.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/odejda.jpg" alt="Толстовки и футболки" />  
-   <span class="usl_name_thumb"><h4>Толстовки и футболки</h4></span>
-   <div class="mask">
-     <p>Футболки и свитшоты с вашим текстом и фотографиями.</p>  
-     <a href="uslugi/odejda.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/stikers.jpg" alt="Наклейки" />  
-   <span class="usl_name_thumb"><h4>Наклейки</h4></span>
-   <div class="mask">
-     <p>Печать автомобильных наклеек различных форматов.</p>  
-     <a href="uslugi/naklejki.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-            
+		<!-- Подключаем контент -->       
+            <div class="container" style="max-width: 1020px;">
+	
+	<div class="breadcrumb">
+	    <div class="breadcrumbs"><li><a href="/">Главная</a></li><li class=\'active\'>Информация</li></div>
+	</div>
+	
+		<h3><span class="faq_head">Информация</span></h3>
+		<hr>
+            <div class="col-md-3">
+                <div class="list-group">
+					  <a href="#" class="list-group-item">Оплата</a>
+					  <a href="#" class="list-group-item">Доставка</a>
+					  <a href="#" class="list-group-item">Производство</a>	
                 </div>
             </div>
-        <div style="clear:both;"></div>
-    </div>
-               
-		<!-- Подключаем footer -->                
+
+           <div class="col-md-9">
+                
+					<div class="delivery">
+						<div class="inform_block_bord">
+						<p ><h3 class="name_inform">Доставка</h3></p>				
+						</div>	
+						<div class="inform_text_bord">
+							<p class="strong_inform_text_bord">1. Доставка по Ханты-Мансийску</p>
+							<p>Стоимость доставки курьером компании по Ханты-Мансийску 100 рублей.<br>
+								Пн.-Пт. 9:00 - 18:00</p>	
+						</div>
+							<hr>
+						<div class="inform_text_bord">
+							<p class="strong_inform_text_bord">2. Доставка по России</p>
+							<p>	a) Доставка транспортной компанией<br>
+								б) Почта России<br>
+								Срок доставки от 4 до 16 дней.<br>
+								100% предоплата заказа.</p>	
+						</div>
+
+					</div>
+					<hr>
+				<div class="paying">
+					<div class="inform_block_bord">
+						<p ><h3 class="name_inform">Оплата</h3></p>				
+						</div>	
+						<div class="inform_text_bord">
+							<p class="strong_inform_text_bord">1. Наличными при получении в магазине</p>
+
+						</div>
+						
+						<div class="inform_text_bord">
+							<p class="strong_inform_text_bord">2. Наличными при получении курьеру</p>
+	
+						</div>
+
+						<div class="inform_text_bord">
+							<p class="strong_inform_text_bord">3. Картой, через сервис Robokassa.<br></p>
+							<p>Robokassa - это сервис, позволяющий принимать платежи от клиентов с помощью банковских карт (VISA или MASTERCARD), в любой электронной валюте, с помощью сервисов мобильная коммерция (МТС, Мегафон, Билайн), платежи через интернет-банк ведущих Банков РФ, платежи через банкоматы, через терминалы мгновенной оплаты, через систему денежных переводов Contact, а также с помощью приложения для iPhone. Данный вид оплаты является самым удобным.</p>
+							<br>
+							<p>Покупатели с помощью системы ROBOKASSA оплачивают заказы без комиссии. Покупатель оплачивает только стоимость заказа при условии использования всех ниже перечисленных способов оплаты</p>	
+
+							<table width="800" class="table_banks">
+			<tbody><tr>
+
+
+				<td width="32%" align="left" valign="top">
+					<strong>Банковские / пластиковые карты</strong>
+					<br>
+					<img src="assets/temp/img/pay/Visa.gif" border="0" alt="Visa">&nbsp;картой Visa<br>
+
+				</td>
+				<td>
+					<br>	
+					<img src="assets/temp/img/pay/Mastercard.gif" border="0">&nbsp;картой Mastercard				
+				</td>
+			</tr>
+			<tr>
+				<td width="32%" valign="top" align="left"><strong>Оплата в розничных сетях</strong><br>
+					<img src="assets/temp/img/pay/Euroset.gif" border="0">&nbsp;Евросеть
+					<br>
+				</td>
+				<td width="32%" valign="top" align="left"><br>
+					<img src="assets/temp/img/pay/Svyaznoy.gif" border="0">&nbsp;Связной
+					<br><br>
+				</td>
+			</tr>
+			<tr>
+				<td width="32%" valign="top" align="left"><strong>Электронные деньги</strong><br>
+					<img src="assets/temp/img/pay/Webmoney_ru.png" border="0">&nbsp;Webmoney
+					<br>
+					<img src="assets/temp/img/pay/YandexMoney.gif" border="0">&nbsp;Яндекс.Деньги
+					<br>
+					<br>	
+				</td>
+				<td width="32%" valign="top" align="left">
+					<img src="assets/temp/img/pay/RBKMoney.gif" border="0">&nbsp;RBK Money
+					<br>
+					<img src="assets/temp/img/pay/MoneyMail.gif" border="0">&nbsp;MoneyMail
+					<br>
+					<img src="assets/temp/img/pay/TeleMoney.gif" border="0">&nbsp;TeleMoney
+					<br><br>
+				</td>
+			</tr>
+			<tr>
+				<td width="32%" valign="top" align="left"><strong>Терминалы моментальной оплаты</strong><br>
+					<img src="assets/temp/img/pay/TerminalsQiwi.gif" border="0">&nbsp;QIWI
+					<br>
+					<br>
+					<br>
+				</td>
+				<td width="32%" valign="top" align="left">
+				</td>
+			</tr>
+		</tbody></table>	
+
+					</div>
+
+				</div>
+				<hr>
+
+				<div class="create">
+					
+						<div class="inform_block_bord">
+							<p><h3 class="name_inform">Производство</h3></p>				
+						</div>
+
+						<div class="inform_text_bord">
+							<p class="strong_inform_text_bord">Чехлы</p>
+							<p>Мы предлагаем качественные и долговечные чехлы для iPhone, Samsung, HTC. Вы можете выбрать печать на пластиковых или силиконовых чехлах различных цветов. Наши чехлы не сломаются при первом же падении и станут надежной защитой для вашего мобильного устройства. Не менее долговечной будет и сама печать. Нанесенное изображение не выцветает и не стирается со временем, его не так-то легко повредить даже при активном пользовании гаджетом.</p>
+						</div>	
+
+  					</div>
+
+					               
+           </div>
+	
+</div>
+	<!-- Подключаем footer -->                
     	<div class="footer">
 		<div class="footer-navigation">
 			<ul class="container">
@@ -305,13 +304,12 @@
 		</table>
 		
 	</div>
-		<!-- Подключаем JS -->
-         <script src="assets/js/jquery.min.js"></script>
+    <!-- Подключаем JS -->
+        <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-
 </body>
 </html>',
-    '_isForward' => true,
+    '_isForward' => false,
   ),
   'contentType' => 
   array (
@@ -403,158 +401,23 @@
 		</div>
 
 ',
-    '[[pdoResources?
-                        &parents=`1`
-                        &tpl=`slider_main`
-                        &tplFirst=`slider_main_first`
-                        &includeTVs=`image_slider`
-                        &sortdir=`ASC`
-                        ]]' => '<div class="item active">
-        <img src="assets/images/slider/img1.jpg" alt="img">
-	    <div class="carousel-caption">
-	    </div>
-	</div>
-<div class="item">
-        <img src="assets/images/slider/img2.jpg" alt="img">
-	    <div class="carousel-caption">
-	        
-	    </div>
-	</div>
-<div class="item">
-        <img src="assets/images/slider/img3.jpg" alt="img">
-	    <div class="carousel-caption">
-	        
-	    </div>
-	</div>',
-    '[[$slider]]' => '		<div class="container" style="max-width: 1024px; margin-top: 28px;">
-			<div class="row">
-			<div id="carousel-shop" class="carousel slide" data-ride="carousel" data-interval="3000">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-shop" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-shop" data-slide-to="1" ></li>
-			    <li data-target="#carousel-shop" data-slide-to="2"></li>
-			  </ol>
-
-			  <!-- Wrapper for slides -->
-			<div class="carousel-inner">
-                    <div class="item active">
-        <img src="assets/images/slider/img1.jpg" alt="img">
-	    <div class="carousel-caption">
-	    </div>
-	</div>
-<div class="item">
-        <img src="assets/images/slider/img2.jpg" alt="img">
-	    <div class="carousel-caption">
-	        
-	    </div>
-	</div>
-<div class="item">
-        <img src="assets/images/slider/img3.jpg" alt="img">
-	    <div class="carousel-caption">
-	        
-	    </div>
-	</div>
-                
-		      </div>
-		    </div>
-		  </div>
-		</div>',
     '[[$header_arrow]]' => '		<div class="header_arrows">
 			
 		</div>
 		
 	</div>',
-    '[[pdoResources?
-                    &parents=`4`
-                    &depth=`0`
-                    &tpl=`item_main`
-                    &includeTVs=`image`
-                    &processTVs=`1`
-                    &sortdir=`ASC`
-                    ]]' => '<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/phone_print.jpg" alt="Печать на чехлах" />  
-   <span class="usl_name_thumb"><h4>Печать на чехлах</h4></span>
-   <div class="mask">
-     <p>Печать на чехлах, любого текста и изображения. Создай в нашем конструкторе чехол своей мечты.</p>  
-     <a href="uslugi/pechat-na-chexlax/" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/pills-examples.jpg" alt="Печать на подушках" />  
-   <span class="usl_name_thumb"><h4>Печать на подушках</h4></span>
-   <div class="mask">
-     <p>Отличным подарком для ваших друзей и близких станет подушка с фотографией. Наша компания выполняет качественную печать фото на подушке в короткие сроки. </p>  
-     <a href="uslugi/pechat-na-podushkax.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/cups_examples.jpg" alt="Сувениры с вашими фото" />  
-   <span class="usl_name_thumb"><h4>Сувениры с вашими фото</h4></span>
-   <div class="mask">
-     <p>Мы предлагаем кружки, подушки, сумки, зеркала, камни, коврики, тарелки, календари, магнитики и многое другое, украшенные выбранными Вами изображениями.</p>  
-     <a href="uslugi/suveniryi-s-vashimi-foto.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/print_foto_examples.jpg" alt="Печать фотографий" />  
-   <span class="usl_name_thumb"><h4>Печать фотографий</h4></span>
-   <div class="mask">
-     <p>Печать фотографий всех размеров:<br>
-10х15 - 12 руб.<br>
-15×21 - 25 руб.<br>
-20х30 - 50 руб.</p>  
-     <a href="uslugi/pechat-fotografij.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/foto-examples.jpg" alt="Фото-товары" />  
-   <span class="usl_name_thumb"><h4>Фото-товары</h4></span>
-   <div class="mask">
-     <p>Мы предлагаем различные фото-рамки и прочие товары к вашим фото</p>  
-     <a href="uslugi/foto-tovaryi.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/digital.jpg" alt="Прочие услуги" />  
-   <span class="usl_name_thumb"><h4>Прочие услуги</h4></span>
-   <div class="mask">
-     <p>Мы оказываем услуги оцифровки видео кассет от 200 рублей / час.</p>  
-     <a href="uslugi/prochie-uslugi.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/odejda.jpg" alt="Толстовки и футболки" />  
-   <span class="usl_name_thumb"><h4>Толстовки и футболки</h4></span>
-   <div class="mask">
-     <p>Футболки и свитшоты с вашим текстом и фотографиями.</p>  
-     <a href="uslugi/odejda.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>
-<div class="col-md-4 col-sm-6 col-xs-12">
- <div class="thumbnail text-center view">
-   <img src="assets/images/goods_examples/stikers.jpg" alt="Наклейки" />  
-   <span class="usl_name_thumb"><h4>Наклейки</h4></span>
-   <div class="mask">
-     <p>Печать автомобильных наклеек различных форматов.</p>  
-     <a href="uslugi/naklejki.html" class="btn btn-success">Перейти</a>  
-   </div>  
- </div>
-</div>',
+    '[[pdoCrumbs ?
+	    &from=`1`
+	    &tpl=`@INLINE <li class=\'active\'><a href="[[+link]]">[[+menutitle]]</a></li>`
+	    &tplCurrent=`@INLINE <li class=\'active\'>[[+menutitle]]</li>`
+	    &tplHome=`@INLINE <li><a href="[[+link]]">[[+menutitle]]</a></li>`
+	    &outputSeparator=``
+	    &exclude=`4`
+	    &showHome=`1`
+	    ]]' => '<div class="breadcrumbs"><li><a href="/">Главная</a></li><li class=\'active\'>Информация</li></div>',
+    '[[$breadcrumbs]]' => '	<div class="breadcrumb">
+	    <div class="breadcrumbs"><li><a href="/">Главная</a></li><li class=\'active\'>Информация</li></div>
+	</div>',
     '[[$footer]]' => '	<div class="footer">
 		<div class="footer-navigation">
 			<ul class="container">
@@ -901,88 +764,6 @@
           'is_stream' => true,
         ),
       ),
-      'slider' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 30,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'slider',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 0,
-          'cache_type' => 0,
-          'snippet' => '		<div class="container" style="max-width: 1024px; margin-top: 28px;">
-			<div class="row">
-			<div id="carousel-shop" class="carousel slide" data-ride="carousel" data-interval="3000">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-shop" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-shop" data-slide-to="1" ></li>
-			    <li data-target="#carousel-shop" data-slide-to="2"></li>
-			  </ol>
-
-			  <!-- Wrapper for slides -->
-			<div class="carousel-inner">
-                    [[pdoResources?
-                        &parents=`1`
-                        &tpl=`slider_main`
-                        &tplFirst=`slider_main_first`
-                        &includeTVs=`image_slider`
-                        &sortdir=`ASC`
-                        ]]
-                
-		      </div>
-		    </div>
-		  </div>
-		</div>',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '		<div class="container" style="max-width: 1024px; margin-top: 28px;">
-			<div class="row">
-			<div id="carousel-shop" class="carousel slide" data-ride="carousel" data-interval="3000">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-shop" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-shop" data-slide-to="1" ></li>
-			    <li data-target="#carousel-shop" data-slide-to="2"></li>
-			  </ol>
-
-			  <!-- Wrapper for slides -->
-			<div class="carousel-inner">
-                    [[pdoResources?
-                        &parents=`1`
-                        &tpl=`slider_main`
-                        &tplFirst=`slider_main_first`
-                        &includeTVs=`image_slider`
-                        &sortdir=`ASC`
-                        ]]
-                
-		      </div>
-		    </div>
-		  </div>
-		</div>',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
       'header_arrow' => 
       array (
         'fields' => 
@@ -1010,6 +791,62 @@
 			
 		</div>
 		
+	</div>',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'breadcrumbs' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 23,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'breadcrumbs',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 0,
+          'cache_type' => 0,
+          'snippet' => '	<div class="breadcrumb">
+	    [[pdoCrumbs ?
+	    &from=`1`
+	    &tpl=`@INLINE <li class=\'active\'><a href="[[+link]]">[[+menutitle]]</a></li>`
+	    &tplCurrent=`@INLINE <li class=\'active\'>[[+menutitle]]</li>`
+	    &tplHome=`@INLINE <li><a href="[[+link]]">[[+menutitle]]</a></li>`
+	    &outputSeparator=``
+	    &exclude=`4`
+	    &showHome=`1`
+	    ]]
+	</div>',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '	<div class="breadcrumb">
+	    [[pdoCrumbs ?
+	    &from=`1`
+	    &tpl=`@INLINE <li class=\'active\'><a href="[[+link]]">[[+menutitle]]</a></li>`
+	    &tplCurrent=`@INLINE <li class=\'active\'>[[+menutitle]]</li>`
+	    &tplHome=`@INLINE <li><a href="[[+link]]">[[+menutitle]]</a></li>`
+	    &outputSeparator=``
+	    &exclude=`4`
+	    &showHome=`1`
+	    ]]
 	</div>',
         ),
         'policies' => 
@@ -1220,39 +1057,19 @@
     ),
     'modSnippet' => 
     array (
-      'pdoResources' => 
+      'pdoCrumbs' => 
       array (
         'fields' => 
         array (
-          'id' => 26,
+          'id' => 28,
           'source' => 1,
           'property_preprocess' => false,
-          'name' => 'pdoResources',
+          'name' => 'pdoCrumbs',
           'description' => '',
           'editor_type' => 0,
           'category' => 7,
           'cache_type' => 0,
           'snippet' => '/* @var array $scriptProperties */
-if (isset($parents) && $parents === \'\') {
-	$scriptProperties[\'parents\'] = $modx->resource->id;
-}
-if (!empty($returnIds)) {
-	$scriptProperties[\'return\'] = \'ids\';
-}
-
-// Adding extra parameters into special place so we can put them in results
-/** @var modSnippet $snippet */
-$additionalPlaceholders = array();
-if ($snippet = $modx->getObject(\'modSnippet\', array(\'name\' => \'pdoResources\'))) {
-	$properties = $snippet->get(\'properties\');
-	foreach ($scriptProperties as $k => $v) {
-		if (!isset($properties[$k])) {
-			$additionalPlaceholders[$k] = $v;
-		}
-	}
-}
-$scriptProperties[\'additionalPlaceholders\'] = $additionalPlaceholders;
-
 /* @var pdoFetch $pdoFetch */
 $fqn = $modx->getOption(\'pdoFetch.class\', null, \'pdotools.pdofetch\', true);
 if ($pdoClass = $modx->loadClass($fqn, \'\', false, true)) {
@@ -1266,32 +1083,167 @@ else {
 	return false;
 }
 $pdoFetch->addTime(\'pdoTools loaded\');
-$output = $pdoFetch->run();
+
+if (!isset($from) || $from == \'\') {$from = 0;}
+if (empty($to)) {$to = $modx->resource->id;}
+if (empty($direction)) {$direction = \'ltr\';}
+if ($outputSeparator == \'&nbsp;&rarr;&nbsp;\' && $direction == \'rtl\') {$outputSeparator = \'&nbsp;&larr;&nbsp;\';}
+if ($limit == \'\') {$limit = 10;}
+// For compatibility with BreadCrumb
+if (!empty($maxCrumbs)) {$limit = $maxCrumbs;}
+if (!empty($containerTpl)) {$tplWrapper = $containerTpl;}
+if (!empty($currentCrumbTpl)) {$tplCurrent = $currentCrumbTpl;}
+if (!empty($linkCrumbTpl)) {$scriptProperties[\'tpl\'] = $linkCrumbTpl;}
+if (!empty($maxCrumbTpl)) {$tplMax = $maxCrumbTpl;}
+if (isset($showBreadCrumbsAtHome)) {$showAtHome = $showBreadCrumbsAtHome;}
+if (isset($showHomeCrumb)) {$showHome = $showHomeCrumb;}
+if (isset($showCurrentCrumb)) {$showCurrent = $showCurrentCrumb;}
+// --
+$fastMode = !empty($fastMode);
+$siteStart = $modx->getOption(\'siteStart\', $scriptProperties, $modx->getOption(\'site_start\'));
+
+if (empty($showAtHome) && $modx->resource->id == $siteStart) {
+	return \'\';
+}
+
+$class = $modx->getOption(\'class\', $scriptProperties, \'modResource\');
+// Start building "Where" expression
+$where = array();
+if (empty($showUnpublished) && empty($showUnPub)) {$where[\'published\'] = 1;}
+if (empty($showHidden)) {$where[\'hidemenu\'] = 0;}
+if (empty($showDeleted)) {$where[\'deleted\'] = 0;}
+if (!empty($hideContainers) && empty($showContainer)) {$where[\'isfolder\'] = 0;}
+
+$resource = ($to == $modx->resource->id)
+	? $modx->resource
+	: $modx->getObject($class, $to);
+
+if (!$resource) {
+	$message = \'Could not build breadcrumbs to resource "\'.$to.\'"\';
+	return \'\';
+}
+
+$parents = $modx->getParentIds($resource->id, $limit, array(\'context\' => $resource->get(\'context_key\')));
+if (!empty($showHome)) {
+	$parents[] = $siteStart;
+}
+
+$ids = array($resource->id);
+foreach ($parents as $parent) {
+	if (!empty($parent)) {
+		$ids[] = $parent;
+	}
+	if (!empty($from) && $parent == $from) {
+		break;
+	}
+}
+$where[\'id:IN\'] = $ids;
+
+if (!empty($exclude)) {
+	$where[\'id:NOT IN\'] = array_map(\'trim\', explode(\',\', $exclude));
+}
+
+// Fields to select
+$resourceColumns = array_keys($modx->getFieldMeta($class));
+$select = array($class => implode(\',\',$resourceColumns));
+
+// Add custom parameters
+foreach (array(\'where\',\'select\') as $v) {
+	if (!empty($scriptProperties[$v])) {
+		$tmp = $modx->fromJSON($scriptProperties[$v]);
+		if (is_array($tmp)) {
+			$$v = array_merge($$v, $tmp);
+		}
+	}
+	unset($scriptProperties[$v]);
+}
+$pdoFetch->addTime(\'Conditions prepared\');
+
+// Default parameters
+$default = array(
+	\'class\' => $class,
+	\'where\' => $modx->toJSON($where),
+	\'select\' => $modx->toJSON($select),
+	\'groupby\' => $class.\'.id\',
+	\'sortby\' => "find_in_set(`$class`.`id`,\'".implode(\',\', $ids)."\')",
+	\'sortdir\' => \'\',
+	\'return\' => \'data\',
+	\'totalVar\' => \'pdocrumbs.total\',
+	\'disableConditions\' => true
+);
+
+// Merge all properties and run!
+$pdoFetch->addTime(\'Query parameters ready\');
+$pdoFetch->setConfig(array_merge($default, $scriptProperties), false);
+$rows = $pdoFetch->run();
+
+$output = array();
+if (!empty($rows) && is_array($rows)) {
+	if (strtolower($direction) == \'ltr\') {
+		$rows = array_reverse($rows);
+	}
+
+	foreach ($rows as $row) {
+		if (!empty($useWeblinkUrl) && $row[\'class_key\'] == \'modWebLink\') {
+			$row[\'link\'] = is_numeric(trim($row[\'content\'], \'[]~ \'))
+				? $pdoFetch->makeUrl(intval(trim($row[\'content\'], \'[]~ \')), $row)
+				: $row[\'content\'];
+		}
+		else {
+			$row[\'link\'] = $pdoFetch->makeUrl($row[\'id\'], $row);
+		}
+
+		$row = array_merge(
+			$scriptProperties,
+			$row,
+			array(\'idx\' => $pdoFetch->idx++)
+		);
+		if (empty($row[\'menutitle\'])) {$row[\'menutitle\'] = $row[\'pagetitle\'];}
+
+		if ($row[\'id\'] == $resource->id && empty($showCurrent)) {
+			continue;
+		}
+		elseif ($row[\'id\'] == $resource->id && !empty($tplCurrent)) {
+			$tpl = $tplCurrent;
+		}
+		elseif ($row[\'id\'] == $siteStart && !empty($tplHome)) {
+			$tpl = $tplHome;
+		}
+		else {
+			$tpl = $pdoFetch->defineChunk($row);
+		}
+		$output[] = empty($tpl)
+			? \'<pre>\'.$pdoFetch->getChunk(\'\', $row).\'</pre>\'
+			: $pdoFetch->getChunk($tpl, $row, $fastMode);
+	}
+}
+$pdoFetch->addTime(\'Chunks processed\');
+
+if (count($output) == 1 && !empty($hideSingle)) {
+	$pdoFetch->addTime(\'The only result was hidden, because the parameter "hideSingle" activated\');
+	$output = array();
+}
 
 $log = \'\';
 if ($modx->user->hasSessionContext(\'mgr\') && !empty($showLog)) {
-	$log .= \'<pre class="pdoResourcesLog">\' . print_r($pdoFetch->getTime(), 1) . \'</pre>\';
+	$log .= \'<pre class="pdoCrumbsLog">\' . print_r($pdoFetch->getTime(), 1) . \'</pre>\';
 }
 
-// Return output
-if (!empty($returnIds)) {
-	$modx->setPlaceholder(\'pdoResources.log\', $log);
-	if (!empty($toPlaceholder)) {
-		$modx->setPlaceholder($toPlaceholder, $output);
-	}
-	else {
-		return $output;
-	}
-}
-elseif (!empty($toSeparatePlaceholders)) {
+if (!empty($toSeparatePlaceholders)) {
 	$output[\'log\'] = $log;
 	$modx->setPlaceholders($output, $toSeparatePlaceholders);
 }
 else {
+	$output = implode($outputSeparator, $output);
+	if ($pdoFetch->idx >= $limit && !empty($tplMax) && !empty($output)) {
+		$output = ($direction == \'ltr\')
+			? $pdoFetch->getChunk($tplMax, array(), $fastMode) . $output
+			: $output . $pdoFetch->getChunk($tplMax, array(), $fastMode);
+	}
 	$output .= $log;
 
 	if (!empty($tplWrapper) && (!empty($wrapIfEmpty) || !empty($output))) {
-		$output = $pdoFetch->getChunk($tplWrapper, array_merge($additionalPlaceholders, array(\'output\' => $output)), $pdoFetch->config[\'fastMode\']);
+		$output = $pdoFetch->getChunk($tplWrapper, array(\'output\' => $output, \'crumbs\' => $output), $fastMode);
 	}
 
 	if (!empty($toPlaceholder)) {
@@ -1304,34 +1256,6 @@ else {
           'locked' => false,
           'properties' => 
           array (
-            'tpl' => 
-            array (
-              'name' => 'tpl',
-              'desc' => 'pdotools_prop_tpl',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Имя чанка для оформления ресурса. Если не указан, то содержимое полей ресурса будет распечатано на экран.',
-              'area_trans' => '',
-            ),
-            'returnIds' => 
-            array (
-              'name' => 'returnIds',
-              'desc' => 'pdotools_prop_returnIds',
-              'type' => 'combo-boolean',
-              'options' => 
-              array (
-              ),
-              'value' => false,
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Возвращать строку со списком id ресурсов, вместо оформленных результатов.',
-              'area_trans' => '',
-            ),
             'showLog' => 
             array (
               'name' => 'showLog',
@@ -1360,98 +1284,32 @@ else {
               'desc_trans' => 'Быстрый режим обработки чанков. Все необработанные теги (условия, сниппеты и т.п.) будут вырезаны.',
               'area_trans' => '',
             ),
-            'sortby' => 
+            'from' => 
             array (
-              'name' => 'sortby',
-              'desc' => 'pdotools_prop_sortby',
-              'type' => 'textfield',
+              'name' => 'from',
+              'desc' => 'pdotools_prop_from',
+              'type' => 'numberfield',
               'options' => 
               array (
               ),
-              'value' => 'publishedon',
+              'value' => 0,
               'lexicon' => 'pdotools:properties',
               'area' => '',
-              'desc_trans' => 'Любое поле ресурса для сортировки, включая ТВ параметр, если он указан в параметре "includeTVs". Можно указывать JSON строку с массивом нескольких полей. Для случайно сортировки укажите "RAND()"',
+              'desc_trans' => 'Id ресурса, от которого строить хлебные крошки. Обычно это корень сайта, то есть "0".',
               'area_trans' => '',
             ),
-            'sortbyTV' => 
+            'to' => 
             array (
-              'name' => 'sortbyTV',
-              'desc' => 'pdotools_prop_sortbyTV',
-              'type' => 'textfield',
+              'name' => 'to',
+              'desc' => 'pdotools_prop_to',
+              'type' => 'numberfield',
               'options' => 
               array (
               ),
               'value' => '',
               'lexicon' => 'pdotools:properties',
               'area' => '',
-              'desc_trans' => 'Сортировка по ТВ параметру. Если он не указан в &includeTVs, то будет подключен автоматически.',
-              'area_trans' => '',
-            ),
-            'sortbyTVType' => 
-            array (
-              'name' => 'sortbyTVType',
-              'desc' => 'pdotools_prop_sortbyTVType',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Тип сортировки по ТВ параметру. Возможные варианты: string, integer, decimal и datetime. Если пусто, то ТВ будет отсортирован в зависимости от его типа: как текст, число или дата.',
-              'area_trans' => '',
-            ),
-            'sortdir' => 
-            array (
-              'name' => 'sortdir',
-              'desc' => 'pdotools_prop_sortdir',
-              'type' => 'list',
-              'options' => 
-              array (
-                0 => 
-                array (
-                  'text' => 'ASC',
-                  'value' => 'ASC',
-                  'name' => 'ASC',
-                ),
-                1 => 
-                array (
-                  'text' => 'DESC',
-                  'value' => 'DESC',
-                  'name' => 'DESC',
-                ),
-              ),
-              'value' => 'DESC',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Направление сортировки: по убыванию или возрастанию.',
-              'area_trans' => '',
-            ),
-            'sortdirTV' => 
-            array (
-              'name' => 'sortdirTV',
-              'desc' => 'pdotools_prop_sortdirTV',
-              'type' => 'list',
-              'options' => 
-              array (
-                0 => 
-                array (
-                  'text' => 'ASC',
-                  'value' => 'ASC',
-                  'name' => 'ASC',
-                ),
-                1 => 
-                array (
-                  'text' => 'DESC',
-                  'value' => 'DESC',
-                  'name' => 'DESC',
-                ),
-              ),
-              'value' => 'ASC',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Направление сортировки ТВ: по убыванию или возрастанию. Если не указан, то будет равен параметру &sortdir.',
+              'desc_trans' => 'Id ресурса для которого строятся хлебные крошки. По умолчанию это id текущей страницы.',
               'area_trans' => '',
             ),
             'limit' => 
@@ -1468,32 +1326,18 @@ else {
               'desc_trans' => 'Ограничение количества результатов выборки. Можно использовать "0".',
               'area_trans' => '',
             ),
-            'offset' => 
+            'exclude' => 
             array (
-              'name' => 'offset',
-              'desc' => 'pdotools_prop_offset',
-              'type' => 'numberfield',
+              'name' => 'exclude',
+              'desc' => 'pdotools_prop_exclude',
+              'type' => 'textfield',
               'options' => 
               array (
               ),
-              'value' => 0,
+              'value' => '',
               'lexicon' => 'pdotools:properties',
               'area' => '',
-              'desc_trans' => 'Пропуск результатов от начала.',
-              'area_trans' => '',
-            ),
-            'depth' => 
-            array (
-              'name' => 'depth',
-              'desc' => 'pdotools_prop_depth',
-              'type' => 'numberfield',
-              'options' => 
-              array (
-              ),
-              'value' => 10,
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Глубина поиска дочерних ресурсов от родителя.',
+              'desc_trans' => 'Список id ресурсов, которые нужно исключить из выборки.',
               'area_trans' => '',
             ),
             'outputSeparator' => 
@@ -1504,8 +1348,7 @@ else {
               'options' => 
               array (
               ),
-              'value' => '
-',
+              'value' => '&nbsp;&rarr;&nbsp;',
               'lexicon' => 'pdotools:properties',
               'area' => '',
               'desc_trans' => 'Необязательная строка для разделения результатов работы.',
@@ -1523,34 +1366,6 @@ else {
               'lexicon' => 'pdotools:properties',
               'area' => '',
               'desc_trans' => 'Если не пусто, сниппет сохранит все данные в плейсхолдер с этим именем, вместо вывода не экран.',
-              'area_trans' => '',
-            ),
-            'parents' => 
-            array (
-              'name' => 'parents',
-              'desc' => 'pdotools_prop_parents',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Список родителей, через запятую, для поиска результатов. По умолчанию выборка ограничена текущим родителем. Если поставить 0 - выборка не ограничивается. Если id родителя начинается с дефиса, он и его потомки исключается из выборки.',
-              'area_trans' => '',
-            ),
-            'includeContent' => 
-            array (
-              'name' => 'includeContent',
-              'desc' => 'pdotools_prop_includeContent',
-              'type' => 'combo-boolean',
-              'options' => 
-              array (
-              ),
-              'value' => false,
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Включаем поле "content" в выборку.',
               'area_trans' => '',
             ),
             'includeTVs' => 
@@ -1607,48 +1422,6 @@ else {
               'lexicon' => 'pdotools:properties',
               'area' => '',
               'desc_trans' => 'Префикс для ТВ параметров.',
-              'area_trans' => '',
-            ),
-            'tvFilters' => 
-            array (
-              'name' => 'tvFilters',
-              'desc' => 'pdotools_prop_tvFilters',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Список фильтров по ТВ, с разделителями AND и OR. Разделитель, указанный в параметре "&tvFiltersOrDelimiter" представляет логическое условие OR и по нему условия группируются в первую очередь.  Внутри каждой группы вы можете задать список значений, разделив их "&tvFiltersAndDelimiter". Поиск значений может проводиться в каком-то конкретном ТВ, если он указан ("myTV==value"), или в любом ("value"). Пример вызова: "&tvFilters=`filter2==one,filter1==bar%||filter1==foo`". <br />Обратите внимание: фильтрация использует оператор LIKE и знак "%" является метасимволом. <br />И еще: Поиск идёт по значениям, которые физически находятся в БД, то есть, сюда не подставляются значения по умолчанию из настроек ТВ.',
-              'area_trans' => '',
-            ),
-            'tvFiltersAndDelimiter' => 
-            array (
-              'name' => 'tvFiltersAndDelimiter',
-              'desc' => 'pdotools_prop_tvFiltersAndDelimiter',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => ',',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Разделитель для условий AND в параметре "&tvFilters". По умолчанию: ",".',
-              'area_trans' => '',
-            ),
-            'tvFiltersOrDelimiter' => 
-            array (
-              'name' => 'tvFiltersOrDelimiter',
-              'desc' => 'pdotools_prop_tvFiltersOrDelimiter',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '||',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Разделитель для условий OR в параметре "&tvFilters". По умолчанию: "||".',
               'area_trans' => '',
             ),
             'where' => 
@@ -1721,10 +1494,52 @@ else {
               'desc_trans' => 'Отключает вывод контейнеров, то есть, ресурсов с isfolder = 1.',
               'area_trans' => '',
             ),
-            'context' => 
+            'tpl' => 
             array (
-              'name' => 'context',
-              'desc' => 'pdotools_prop_context',
+              'name' => 'tpl',
+              'desc' => 'pdotools_prop_tpl',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <a href="[[+link]]">[[+menutitle]]</a>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя чанка для оформления ресурса. Если не указан, то содержимое полей ресурса будет распечатано на экран.',
+              'area_trans' => '',
+            ),
+            'tplCurrent' => 
+            array (
+              'name' => 'tplCurrent',
+              'desc' => 'pdotools_prop_tplCurrent',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <span>[[+menutitle]]</span>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления текущего документа в навигации.',
+              'area_trans' => '',
+            ),
+            'tplMax' => 
+            array (
+              'name' => 'tplMax',
+              'desc' => 'pdotools_prop_tplMax',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <span>&nbsp;...&nbsp;</span>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, который добавляется в начало результатов, если их больше чем "&limit".',
+              'area_trans' => '',
+            ),
+            'tplHome' => 
+            array (
+              'name' => 'tplHome',
+              'desc' => 'pdotools_prop_tplHome',
               'type' => 'textfield',
               'options' => 
               array (
@@ -1732,91 +1547,7 @@ else {
               'value' => '',
               'lexicon' => 'pdotools:properties',
               'area' => '',
-              'desc_trans' => 'Ограничение выборки по контексту ресурсов.',
-              'area_trans' => '',
-            ),
-            'idx' => 
-            array (
-              'name' => 'idx',
-              'desc' => 'pdotools_prop_idx',
-              'type' => 'numberfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Вы можете указать стартовый номер итерации вывода результатов.',
-              'area_trans' => '',
-            ),
-            'first' => 
-            array (
-              'name' => 'first',
-              'desc' => 'pdotools_prop_first',
-              'type' => 'numberfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Номер первой итерации вывода результатов.',
-              'area_trans' => '',
-            ),
-            'last' => 
-            array (
-              'name' => 'last',
-              'desc' => 'pdotools_prop_last',
-              'type' => 'numberfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Номер последней итерации вывода результатов. По умолчанию он рассчитается автоматически, по формуле (total + first - 1).',
-              'area_trans' => '',
-            ),
-            'tplFirst' => 
-            array (
-              'name' => 'tplFirst',
-              'desc' => 'pdotools_prop_tplFirst',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Имя чанка для первого ресурса в результатах.',
-              'area_trans' => '',
-            ),
-            'tplLast' => 
-            array (
-              'name' => 'tplLast',
-              'desc' => 'pdotools_prop_tplLast',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Имя чанка для последнего ресурса в результатах.',
-              'area_trans' => '',
-            ),
-            'tplOdd' => 
-            array (
-              'name' => 'tplOdd',
-              'desc' => 'pdotools_prop_tplOdd',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Имя чанка для каждого второго ресурса.',
+              'desc_trans' => 'Чанк оформления ссылки на главную страницу.',
               'area_trans' => '',
             ),
             'tplWrapper' => 
@@ -1827,7 +1558,7 @@ else {
               'options' => 
               array (
               ),
-              'value' => '',
+              'value' => '@INLINE <div class="breadcrumbs">[[+output]]</div>',
               'lexicon' => 'pdotools:properties',
               'area' => '',
               'desc_trans' => 'Чанк-обёртка, для заворачивания всех результатов. Понимает один плейсхолдер: [[+output]]. Не работает вместе с параметром "toSeparatePlaceholders".',
@@ -1847,176 +1578,86 @@ else {
               'desc_trans' => 'Включает вывод чанка-обертки (tplWrapper) даже если результатов нет.',
               'area_trans' => '',
             ),
-            'totalVar' => 
+            'showCurrent' => 
             array (
-              'name' => 'totalVar',
-              'desc' => 'pdotools_prop_totalVar',
-              'type' => 'textfield',
+              'name' => 'showCurrent',
+              'desc' => 'pdotools_prop_showCurrent',
+              'type' => 'combo-boolean',
               'options' => 
               array (
               ),
-              'value' => 'total',
+              'value' => true,
               'lexicon' => 'pdotools:properties',
               'area' => '',
-              'desc_trans' => 'Имя плейсхолдера для сохранения общего количества результатов.',
+              'desc_trans' => 'Выводить текущий документ в навигации.',
               'area_trans' => '',
             ),
-            'resources' => 
+            'showHome' => 
             array (
-              'name' => 'resources',
-              'desc' => 'pdotools_prop_resources',
-              'type' => 'textfield',
+              'name' => 'showHome',
+              'desc' => 'pdotools_prop_showHome',
+              'type' => 'combo-boolean',
               'options' => 
               array (
               ),
-              'value' => '',
+              'value' => false,
               'lexicon' => 'pdotools:properties',
               'area' => '',
-              'desc_trans' => 'Список ресурсов, через запятую, для вывода в результатах. Если id ресурса начинается с дефиса, этот ресурс исключается из выборки.',
+              'desc_trans' => 'Выводить ссылку на главную в начале навигации.',
               'area_trans' => '',
             ),
-            'tplCondition' => 
+            'showAtHome' => 
             array (
-              'name' => 'tplCondition',
-              'desc' => 'pdotools_prop_tplCondition',
-              'type' => 'textfield',
+              'name' => 'showAtHome',
+              'desc' => 'pdotools_prop_showAtHome',
+              'type' => 'combo-boolean',
               'options' => 
               array (
               ),
-              'value' => '',
+              'value' => true,
               'lexicon' => 'pdotools:properties',
               'area' => '',
-              'desc_trans' => 'Поле ресурса, из которого будет получено значение для выбора чанка по условию в "conditionalTpls".',
+              'desc_trans' => 'Показывать хлебные крошки на главной странице сайта.',
               'area_trans' => '',
             ),
-            'tplOperator' => 
+            'hideSingle' => 
             array (
-              'name' => 'tplOperator',
-              'desc' => 'pdotools_prop_tplOperator',
+              'name' => 'hideSingle',
+              'desc' => 'pdotools_prop_hideSingle',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => false,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Не выводить результат, если он один единственный.',
+              'area_trans' => '',
+            ),
+            'direction' => 
+            array (
+              'name' => 'direction',
+              'desc' => 'pdotools_prop_direction',
               'type' => 'list',
               'options' => 
               array (
                 0 => 
                 array (
-                  'text' => 'is equal to',
-                  'value' => '==',
-                  'name' => 'is equal to',
+                  'value' => 'ltr',
+                  'text' => 'Left To Right (ltr)',
+                  'name' => 'Left To Right (ltr)',
                 ),
                 1 => 
                 array (
-                  'text' => 'is not equal to',
-                  'value' => '!=',
-                  'name' => 'is not equal to',
-                ),
-                2 => 
-                array (
-                  'text' => 'less than',
-                  'value' => '<',
-                  'name' => 'less than',
-                ),
-                3 => 
-                array (
-                  'text' => 'less than or equal to',
-                  'value' => '<=',
-                  'name' => 'less than or equal to',
-                ),
-                4 => 
-                array (
-                  'text' => 'greater than or equal to',
-                  'value' => '>=',
-                  'name' => 'greater than or equal to',
-                ),
-                5 => 
-                array (
-                  'text' => 'is empty',
-                  'value' => 'empty',
-                  'name' => 'is empty',
-                ),
-                6 => 
-                array (
-                  'text' => 'is not empty',
-                  'value' => '!empty',
-                  'name' => 'is not empty',
-                ),
-                7 => 
-                array (
-                  'text' => 'is null',
-                  'value' => 'null',
-                  'name' => 'is null',
-                ),
-                8 => 
-                array (
-                  'text' => 'is in array',
-                  'value' => 'inarray',
-                  'name' => 'is in array',
-                ),
-                9 => 
-                array (
-                  'text' => 'is between',
-                  'value' => 'between',
-                  'name' => 'is between',
+                  'value' => 'rtl',
+                  'text' => 'Right To Left (rtl)',
+                  'name' => 'Right To Left (rtl)',
                 ),
               ),
-              'value' => '==',
+              'value' => 'ltr',
               'lexicon' => 'pdotools:properties',
               'area' => '',
-              'desc_trans' => 'Необязательный оператор для проведения сравнения поля ресурса в "tplCondition" с массивом значений и чанков в "conditionalTpls".',
-              'area_trans' => '',
-            ),
-            'conditionalTpls' => 
-            array (
-              'name' => 'conditionalTpls',
-              'desc' => 'pdotools_prop_conditionalTpls',
-              'type' => 'textarea',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'JSON строка с массивом, у которого в ключах указано то, с чем будет сравниваться "tplCondition", а в значениях - чанки, которые будут использованы для вывода, если сравнение будет успешно. Оператор сравнения указывается в "tplOperator". Для операторов типа "isempty" можно использовать массив без ключей.',
-              'area_trans' => '',
-            ),
-            'select' => 
-            array (
-              'name' => 'select',
-              'desc' => 'pdotools_prop_select',
-              'type' => 'textarea',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Список полей для выборки, через запятую. Можно указывать JSON строку с массивом, например {"modResource":"id,pagetitle,content"}.',
-              'area_trans' => '',
-            ),
-            'toSeparatePlaceholders' => 
-            array (
-              'name' => 'toSeparatePlaceholders',
-              'desc' => 'pdotools_prop_toSeparatePlaceholders',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Если вы укажете слово в этом параметре, то ВСЕ результаты будут выставлены в разные плейсхолдеры, начинающиеся с этого слова и заканчивающиеся порядковым номером строки, от нуля. Например, указав в параметре "myPl", вы получите плейсхолдеры [[+myPl0]], [[+myPl1]] и т.д.',
-              'area_trans' => '',
-            ),
-            'loadModels' => 
-            array (
-              'name' => 'loadModels',
-              'desc' => 'pdotools_prop_loadModels',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'pdotools:properties',
-              'area' => '',
-              'desc_trans' => 'Список компонентов, через запятую, чьи модели нужно загрузить для построения запроса. Например: "&loadModels=`ms2gallery,msearch2`".',
+              'desc_trans' => 'Направление навигации: слева направо (ltr) или справа налево (rtl), например для Арабского языка.',
               'area_trans' => '',
             ),
             'scheme' => 
@@ -2077,7 +1718,7 @@ else {
               'options' => 
               array (
               ),
-              'value' => false,
+              'value' => true,
               'lexicon' => 'pdotools:properties',
               'area' => '',
               'desc_trans' => 'Генерировать ссылку с учетом класса ресурса.',
@@ -2086,28 +1727,8 @@ else {
           ),
           'moduleguid' => '',
           'static' => false,
-          'static_file' => 'core/components/pdotools/elements/snippets/snippet.pdoresources.php',
+          'static_file' => 'core/components/pdotools/elements/snippets/snippet.pdocrumbs.php',
           'content' => '/* @var array $scriptProperties */
-if (isset($parents) && $parents === \'\') {
-	$scriptProperties[\'parents\'] = $modx->resource->id;
-}
-if (!empty($returnIds)) {
-	$scriptProperties[\'return\'] = \'ids\';
-}
-
-// Adding extra parameters into special place so we can put them in results
-/** @var modSnippet $snippet */
-$additionalPlaceholders = array();
-if ($snippet = $modx->getObject(\'modSnippet\', array(\'name\' => \'pdoResources\'))) {
-	$properties = $snippet->get(\'properties\');
-	foreach ($scriptProperties as $k => $v) {
-		if (!isset($properties[$k])) {
-			$additionalPlaceholders[$k] = $v;
-		}
-	}
-}
-$scriptProperties[\'additionalPlaceholders\'] = $additionalPlaceholders;
-
 /* @var pdoFetch $pdoFetch */
 $fqn = $modx->getOption(\'pdoFetch.class\', null, \'pdotools.pdofetch\', true);
 if ($pdoClass = $modx->loadClass($fqn, \'\', false, true)) {
@@ -2121,32 +1742,167 @@ else {
 	return false;
 }
 $pdoFetch->addTime(\'pdoTools loaded\');
-$output = $pdoFetch->run();
+
+if (!isset($from) || $from == \'\') {$from = 0;}
+if (empty($to)) {$to = $modx->resource->id;}
+if (empty($direction)) {$direction = \'ltr\';}
+if ($outputSeparator == \'&nbsp;&rarr;&nbsp;\' && $direction == \'rtl\') {$outputSeparator = \'&nbsp;&larr;&nbsp;\';}
+if ($limit == \'\') {$limit = 10;}
+// For compatibility with BreadCrumb
+if (!empty($maxCrumbs)) {$limit = $maxCrumbs;}
+if (!empty($containerTpl)) {$tplWrapper = $containerTpl;}
+if (!empty($currentCrumbTpl)) {$tplCurrent = $currentCrumbTpl;}
+if (!empty($linkCrumbTpl)) {$scriptProperties[\'tpl\'] = $linkCrumbTpl;}
+if (!empty($maxCrumbTpl)) {$tplMax = $maxCrumbTpl;}
+if (isset($showBreadCrumbsAtHome)) {$showAtHome = $showBreadCrumbsAtHome;}
+if (isset($showHomeCrumb)) {$showHome = $showHomeCrumb;}
+if (isset($showCurrentCrumb)) {$showCurrent = $showCurrentCrumb;}
+// --
+$fastMode = !empty($fastMode);
+$siteStart = $modx->getOption(\'siteStart\', $scriptProperties, $modx->getOption(\'site_start\'));
+
+if (empty($showAtHome) && $modx->resource->id == $siteStart) {
+	return \'\';
+}
+
+$class = $modx->getOption(\'class\', $scriptProperties, \'modResource\');
+// Start building "Where" expression
+$where = array();
+if (empty($showUnpublished) && empty($showUnPub)) {$where[\'published\'] = 1;}
+if (empty($showHidden)) {$where[\'hidemenu\'] = 0;}
+if (empty($showDeleted)) {$where[\'deleted\'] = 0;}
+if (!empty($hideContainers) && empty($showContainer)) {$where[\'isfolder\'] = 0;}
+
+$resource = ($to == $modx->resource->id)
+	? $modx->resource
+	: $modx->getObject($class, $to);
+
+if (!$resource) {
+	$message = \'Could not build breadcrumbs to resource "\'.$to.\'"\';
+	return \'\';
+}
+
+$parents = $modx->getParentIds($resource->id, $limit, array(\'context\' => $resource->get(\'context_key\')));
+if (!empty($showHome)) {
+	$parents[] = $siteStart;
+}
+
+$ids = array($resource->id);
+foreach ($parents as $parent) {
+	if (!empty($parent)) {
+		$ids[] = $parent;
+	}
+	if (!empty($from) && $parent == $from) {
+		break;
+	}
+}
+$where[\'id:IN\'] = $ids;
+
+if (!empty($exclude)) {
+	$where[\'id:NOT IN\'] = array_map(\'trim\', explode(\',\', $exclude));
+}
+
+// Fields to select
+$resourceColumns = array_keys($modx->getFieldMeta($class));
+$select = array($class => implode(\',\',$resourceColumns));
+
+// Add custom parameters
+foreach (array(\'where\',\'select\') as $v) {
+	if (!empty($scriptProperties[$v])) {
+		$tmp = $modx->fromJSON($scriptProperties[$v]);
+		if (is_array($tmp)) {
+			$$v = array_merge($$v, $tmp);
+		}
+	}
+	unset($scriptProperties[$v]);
+}
+$pdoFetch->addTime(\'Conditions prepared\');
+
+// Default parameters
+$default = array(
+	\'class\' => $class,
+	\'where\' => $modx->toJSON($where),
+	\'select\' => $modx->toJSON($select),
+	\'groupby\' => $class.\'.id\',
+	\'sortby\' => "find_in_set(`$class`.`id`,\'".implode(\',\', $ids)."\')",
+	\'sortdir\' => \'\',
+	\'return\' => \'data\',
+	\'totalVar\' => \'pdocrumbs.total\',
+	\'disableConditions\' => true
+);
+
+// Merge all properties and run!
+$pdoFetch->addTime(\'Query parameters ready\');
+$pdoFetch->setConfig(array_merge($default, $scriptProperties), false);
+$rows = $pdoFetch->run();
+
+$output = array();
+if (!empty($rows) && is_array($rows)) {
+	if (strtolower($direction) == \'ltr\') {
+		$rows = array_reverse($rows);
+	}
+
+	foreach ($rows as $row) {
+		if (!empty($useWeblinkUrl) && $row[\'class_key\'] == \'modWebLink\') {
+			$row[\'link\'] = is_numeric(trim($row[\'content\'], \'[]~ \'))
+				? $pdoFetch->makeUrl(intval(trim($row[\'content\'], \'[]~ \')), $row)
+				: $row[\'content\'];
+		}
+		else {
+			$row[\'link\'] = $pdoFetch->makeUrl($row[\'id\'], $row);
+		}
+
+		$row = array_merge(
+			$scriptProperties,
+			$row,
+			array(\'idx\' => $pdoFetch->idx++)
+		);
+		if (empty($row[\'menutitle\'])) {$row[\'menutitle\'] = $row[\'pagetitle\'];}
+
+		if ($row[\'id\'] == $resource->id && empty($showCurrent)) {
+			continue;
+		}
+		elseif ($row[\'id\'] == $resource->id && !empty($tplCurrent)) {
+			$tpl = $tplCurrent;
+		}
+		elseif ($row[\'id\'] == $siteStart && !empty($tplHome)) {
+			$tpl = $tplHome;
+		}
+		else {
+			$tpl = $pdoFetch->defineChunk($row);
+		}
+		$output[] = empty($tpl)
+			? \'<pre>\'.$pdoFetch->getChunk(\'\', $row).\'</pre>\'
+			: $pdoFetch->getChunk($tpl, $row, $fastMode);
+	}
+}
+$pdoFetch->addTime(\'Chunks processed\');
+
+if (count($output) == 1 && !empty($hideSingle)) {
+	$pdoFetch->addTime(\'The only result was hidden, because the parameter "hideSingle" activated\');
+	$output = array();
+}
 
 $log = \'\';
 if ($modx->user->hasSessionContext(\'mgr\') && !empty($showLog)) {
-	$log .= \'<pre class="pdoResourcesLog">\' . print_r($pdoFetch->getTime(), 1) . \'</pre>\';
+	$log .= \'<pre class="pdoCrumbsLog">\' . print_r($pdoFetch->getTime(), 1) . \'</pre>\';
 }
 
-// Return output
-if (!empty($returnIds)) {
-	$modx->setPlaceholder(\'pdoResources.log\', $log);
-	if (!empty($toPlaceholder)) {
-		$modx->setPlaceholder($toPlaceholder, $output);
-	}
-	else {
-		return $output;
-	}
-}
-elseif (!empty($toSeparatePlaceholders)) {
+if (!empty($toSeparatePlaceholders)) {
 	$output[\'log\'] = $log;
 	$modx->setPlaceholders($output, $toSeparatePlaceholders);
 }
 else {
+	$output = implode($outputSeparator, $output);
+	if ($pdoFetch->idx >= $limit && !empty($tplMax) && !empty($output)) {
+		$output = ($direction == \'ltr\')
+			? $pdoFetch->getChunk($tplMax, array(), $fastMode) . $output
+			: $output . $pdoFetch->getChunk($tplMax, array(), $fastMode);
+	}
 	$output .= $log;
 
 	if (!empty($tplWrapper) && (!empty($wrapIfEmpty) || !empty($output))) {
-		$output = $pdoFetch->getChunk($tplWrapper, array_merge($additionalPlaceholders, array(\'output\' => $output)), $pdoFetch->config[\'fastMode\']);
+		$output = $pdoFetch->getChunk($tplWrapper, array(\'output\' => $output, \'crumbs\' => $output), $fastMode);
 	}
 
 	if (!empty($toPlaceholder)) {

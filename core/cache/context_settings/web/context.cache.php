@@ -62,8 +62,8 @@
     ),
     'OnDocFormPrerender' => 
     array (
-      9 => '9',
       1 => '1',
+      9 => '9',
     ),
     'OnFileCreateFormPrerender' => 
     array (
@@ -75,8 +75,8 @@
     ),
     'OnHandleRequest' => 
     array (
-      10 => '10',
       2 => '2',
+      10 => '10',
     ),
     'OnLoadWebDocument' => 
     array (
@@ -127,8 +127,8 @@
     ),
     'OnTVOutputRenderList' => 
     array (
-      9 => '9',
       4 => '4',
+      9 => '9',
     ),
     'OnTVOutputRenderPropertiesList' => 
     array (

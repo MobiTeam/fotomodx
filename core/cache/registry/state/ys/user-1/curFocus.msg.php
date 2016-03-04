@@ -1,2 +1,2 @@
 <?php
-return 'modx-resource-richtext';
+return 'modx-resource-pagetitle';
