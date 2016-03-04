@@ -1,0 +1,67 @@
+<?php  return array (
+  1 => 
+  array (
+    'id' => '1',
+    'namespace' => 'formit',
+    'controller' => 'index',
+    'haslayout' => '1',
+    'lang_topics' => 'formit:mgr',
+    'assets' => '',
+    'help_url' => '',
+    'namespace_name' => 'formit',
+    'namespace_path' => 'C:/OpenServer/domains/modxShop/core/components/formit/',
+    'namespace_assets_path' => '{assets_path}components/formit/',
+  ),
+  2 => 
+  array (
+    'id' => '2',
+    'namespace' => 'gallery',
+    'controller' => 'index',
+    'haslayout' => '1',
+    'lang_topics' => 'gallery:default',
+    'assets' => '',
+    'help_url' => '',
+    'namespace_name' => 'gallery',
+    'namespace_path' => 'C:/OpenServer/domains/modxShop/core/components/gallery/',
+    'namespace_assets_path' => '/Users/theboxer/www/modx/pkgs/gallery/assets/components/gallery/',
+  ),
+  4 => 
+  array (
+    'id' => '4',
+    'namespace' => 'minishop2',
+    'controller' => 'controllers/mgr/orders',
+    'haslayout' => '1',
+    'lang_topics' => 'minishop2:default',
+    'assets' => '',
+    'help_url' => '',
+    'namespace_name' => 'minishop2',
+    'namespace_path' => 'C:/OpenServer/domains/modxShop/core/components/minishop2/',
+    'namespace_assets_path' => '{base_path}extras/minishop/assets/components/minishop2/',
+  ),
+  5 => 
+  array (
+    'id' => '5',
+    'namespace' => 'minishop2',
+    'controller' => 'controllers/mgr/settings',
+    'haslayout' => '1',
+    'lang_topics' => 'minishop2:default',
+    'assets' => '',
+    'help_url' => '',
+    'namespace_name' => 'minishop2',
+    'namespace_path' => 'C:/OpenServer/domains/modxShop/core/components/minishop2/',
+    'namespace_assets_path' => '{base_path}extras/minishop/assets/components/minishop2/',
+  ),
+  3 => 
+  array (
+    'id' => '3',
+    'namespace' => 'minishop2',
+    'controller' => 'index',
+    'haslayout' => '1',
+    'lang_topics' => 'minishop2:default',
+    'assets' => '',
+    'help_url' => '',
+    'namespace_name' => 'minishop2',
+    'namespace_path' => 'C:/OpenServer/domains/modxShop/core/components/minishop2/',
+    'namespace_assets_path' => '{base_path}extras/minishop/assets/components/minishop2/',
+  ),
+);

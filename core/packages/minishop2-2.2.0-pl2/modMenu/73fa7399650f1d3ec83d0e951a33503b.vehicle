@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      'e9450de0a94ccbf96a526e4a9809ea1e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"minishop2","controller":"index","haslayout":1,"lang_topics":"minishop2:default","assets":"","help_url":"","parent":0}',
+        'guid' => 'e94f4d0e377304d90dd440a2cf77a86a',
+        'native_key' => 1,
+        'signature' => '81dbc23e4b3c7f87361581b4ca89e59d',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8e1dbd4f33578663a5277c57263cb1f6',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '73fa7399650f1d3ec83d0e951a33503b',
+  'native_key' => 'minishop2',
+  'object' => '{"text":"minishop2","parent":"components","action":1,"description":"ms2_menu_desc","icon":"<i class=\\"icon-shopping-cart icon icon-large\\"><\\/i>","menuindex":0,"params":"","handler":"","permissions":"","namespace":"minishop2"}',
+);
