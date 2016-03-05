@@ -1,0 +1,75 @@
+Changelog for AjaxForm.
+
+1.1.4-pl
+==============
+- [#27] Support of single quotes in attributes of form.
+- Case-insensitive check of attributes of form.
+
+1.1.3-pl
+==============
+- Improved validation of files.
+
+1.1.2-pl
+==============
+- Compatibility with FormIt ReCaptcha.
+- Small code format.
+
+1.1.1-pl
+==============
+- Improved checking of availability of pdoTools.
+
+1.1.0-pl
+==============
+- Improved registration of frontend javascript.
+- Added parameter &formSelector for specifying name of CSS class of form.
+- Added parameter &objectName for specifying name of javascript object to initialize.
+
+1.0.7-pl
+==============
+- Added loading source resource to modX::resource in action.php.
+
+1.0.6-pl
+==============
+- [#15] Fixed work in different contexts.
+
+1.0.5-pl
+==============
+- Remove error class from fields on before form submit.
+
+1.0.4-pl
+==============
+- Added checking of global js var "afValidated" before form submit.
+
+1.0.3-pl
+==============
+- [#8] Improved regular expression.
+- Improved compatibility with parameter "submitVar" in snippet FormIt.
+
+1.0.2-pl
+==============
+- Added jQuery event "af_complete" on form submit.
+- [#4] Ability to use @INLINE chunk in parameter &form, if you have pdoTools installed.
+- [#3] Ability to set placeholders in form by specifying them into script parameters.
+- [#2] Script will add class "error" to elements with ".error_[name_of_field]" elements in form.
+
+1.0.1-pl
+==============
+- Possibly fix for Error 500 on some hosts.
+
+1.0.0-pl
+==============
+- Call end snippet on page load for preparation of form. Now you can use hook "math".
+
+1.0.0-rc
+==============
+- Force attribute "method=post" to form.
+- Added support for sending form without javascript.
+
+1.0.0-beta1
+==============
+- Improved adding class "ajax_form" to form.
+- Improved snippet parameters.
+
+1.0.0-beta0
+==============
+- Initial release.
